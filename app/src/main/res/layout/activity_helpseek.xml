@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".helpseek">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Please fill the following if you need help                                    यदि आपको सहायता की आवश्यकता हो तो कृपया निम्नलिखित भरें।"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Please write your problem and what type of help do you need.                                                             कृपया अपनी समस्या लिखें और आपको किस प्रकार की सहायता की आवश्यकता है।"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/problemedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp"
+        android:ems="10"
+        android:hint="Write problem here/समस्या यहाँ लिखें।"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Please write your current address where a helper can reach you for help.                                           कृपया अपना वर्तमान पता लिखें जहां एक सहायक आपकी सहायता के लिए पहुंच सकता है।"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/addressedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Write current address here/वर्तमान पता यहाँ लिखें।" />
+    <EditText
+        android:id="@+id/nameedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Write your Phone number here/अपना फ़ोन नंबर यहाँ लिखें।" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Please press the button below to seek help and wait for sometime.                                                    कृपया सहायता प्राप्त करने के लिए नीचे दिए गए बटन को दबाएं और कुछ देर प्रतीक्षा करें।"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/seekhelpbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Press here to seek help./मदद लेने के लिए यहां दबाएं।"/>
+
+</LinearLayout>
+</ScrollView>

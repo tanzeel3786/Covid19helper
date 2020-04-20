@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Covid19 helper</string>
+    <string name="title_activity_helpseekermap">Map</string>
+    <string name="spinner_tittle">Choose your state</string>
+    <string-array name="Choose_your_State">
+        <item>Auto Rifile</item>
+    </string-array>
+</resources>

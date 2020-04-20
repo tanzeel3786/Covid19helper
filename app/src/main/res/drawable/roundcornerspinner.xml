@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle" android:padding="10dp">
+            <stroke android:color="#000"
+                android:width="2dp"/>
+            <corners
+                android:bottomRightRadius="23dp"
+                android:bottomLeftRadius="23dp"
+                android:topLeftRadius="23dp"
+                android:topRightRadius="23dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/dropdownasset2"
+        android:start="310dp" />
+</layer-list>
