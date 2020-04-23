@@ -40,6 +40,7 @@ public class helper extends AppCompatActivity {
         final String state=getIntent().getStringExtra("state");
         final String uid=getIntent().getStringExtra("uid");
         helperDatasetList=new ArrayList<>();
+        helpertextv.setText("Problems in "+city);
 
 //Toast.makeText(helper.this,city,Toast.LENGTH_SHORT).show();
        // Toast.makeText(helper.this,state,Toast.LENGTH_SHORT).show();
@@ -54,7 +55,7 @@ public class helper extends AppCompatActivity {
                         phone ="Phone :"+ (String) snapshot1.child("name").getValue();
 
                    }
-                   helpertextv.setText("Problems in "+city);
+                   //helpertextv.setText("Problems in "+city);
                    helperDatasetList.add(new helperdataset(problem, address, phone));
                    helperdatasetadapter helperdatasetadapter = new helperdatasetadapter(helper.this, helperDatasetList);
                    GridLayoutManager gridLayoutManager = new GridLayoutManager(helper.this, 1);
@@ -121,6 +122,12 @@ public class helper extends AppCompatActivity {
                 intent1.putExtra("uid",getIntent().getStringExtra("uid"));
 
                 startActivity(intent1);
+                return true;
+            case R.id.newshelper:
+                startActivity(new Intent(this, news.class));
+                return true;
+            case R.id.donate:
+                startActivity(new Intent(this, donate.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

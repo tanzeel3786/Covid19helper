@@ -92,6 +92,7 @@ Spinner spinner = (Spinner) findViewById(R.id.spinner);
                     intent.putExtra("selectedstate",item1);
                     intent.putExtra("type",type);
                     startActivity(intent);
+                    finish();
                 }
             }
         });

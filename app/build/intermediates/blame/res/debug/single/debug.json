@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\menu_optionsmenu.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\menu\\optionsmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dropdownasset2.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\dropdownasset2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_donate.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_donate.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinnerlayout.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\spinnerlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dropdownasset2.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\dropdownasset2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_covid19logo.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\drawable\\covid19logo.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authenticatedhelpers.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_authenticatedhelpers.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_helperrowlayout.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\helperrowlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_helpseek.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_helpseek.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dropdownasset2.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\dropdownasset2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_helpseekafteractivity.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_helpseekafteractivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back1.jpeg.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\drawable\\back1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_dropdownasset2.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\dropdownasset2.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcorner.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\drawable\\roundcorner.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authenticatedhelpersnumber.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_authenticatedhelpersnumber.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dropdownasset2.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\dropdownasset2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_helpseekcity.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_helpseekcity.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\menu_optionsmenu2.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\menu\\optionsmenu2.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_dropdownasset2.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\dropdownasset2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_helpseekerregistration.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_helpseekerregistration.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registerpage.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_registerpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_govthelplinenumbers.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_govthelplinenumbers.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_helper.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_helper.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_helpseekermap.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_helpseekermap.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_aboutapp.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_aboutapp.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_news.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\layout\\activity_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcornerspinner.xml.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\src\\main\\res\\drawable\\roundcornerspinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dropdownasset2.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\dropdownasset2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Covid19helper\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    }
+]

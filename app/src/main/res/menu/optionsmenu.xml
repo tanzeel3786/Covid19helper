@@ -8,5 +8,8 @@
     <item android:id="@+id/about"
         android:title="About app"
         />
+    <item android:id="@+id/newshelpseek"
+        android:title="News"
+        />
 
 </menu>

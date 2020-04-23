@@ -1,0 +1,282 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.covid19helper"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:13:5-53:19
+28        android:allowBackup="true"
+28-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:14:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d8e6145ebd5f6e1099b739484795a4bd\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/covid19logo"
+31-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:15:9-45
+32        android:label="@string/app_name"
+32-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:16:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:17:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:18:9-35
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:19:9-40
+36        <activity android:name="com.example.covid19helper.registerpage" />
+36-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\debug\AndroidManifest.xml:4:9-84
+36-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\debug\AndroidManifest.xml:4:19-72
+37        <activity android:name="com.example.covid19helper.donate" />
+37-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:20:9-53
+37-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:20:19-41
+38        <activity android:name="com.example.covid19helper.news" />
+38-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:21:9-42
+38-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:21:19-39
+39        <activity android:name="com.example.covid19helper.helpseekafteractivity" />
+39-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:22:9-59
+39-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:22:19-56
+40        <activity android:name="com.example.covid19helper.authenticatedhelpers" />
+40-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:23:9-58
+40-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:23:19-55
+41        <activity android:name="com.example.covid19helper.aboutapp" />
+41-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:24:9-46
+41-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:24:19-43
+42        <activity android:name="com.example.covid19helper.Authenticatedhelpersnumber" />
+42-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:25:9-64
+42-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:25:19-61
+43        <activity android:name="com.example.covid19helper.govthelplinenumbers" />
+43-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:26:9-57
+43-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:26:19-54
+44        <activity android:name="com.example.covid19helper.helper" />
+44-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:27:9-44
+44-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:27:19-41
+45        <activity android:name="com.example.covid19helper.helpseek" />
+45-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:28:9-46
+45-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:28:19-43
+46        <activity android:name="com.example.covid19helper.helpseekcity" />
+46-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:29:9-50
+46-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:29:19-47
+47        <activity android:name="com.example.covid19helper.helpseekerregistration" />
+47-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:30:9-60
+47-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:30:19-57
+48        <!--
+49             The API key for Google Maps-based APIs is defined as a string resource.
+50             (See the file "res/values/google_maps_api.xml").
+51             Note that the API key is linked to the encryption key used to sign the APK.
+52             You need a different API key for each encryption key, including the release key that is used to
+53             sign the APK for publishing.
+54             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+55        -->
+56        <meta-data
+56-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:39:9-41:55
+57            android:name="com.google.android.geo.API_KEY"
+57-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:40:13-58
+58            android:value="@string/google_maps_key" />
+58-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:41:13-52
+59
+60        <activity
+60-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:43:9-45:68
+61            android:name="com.example.covid19helper.helpseekermap"
+61-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:44:13-42
+62            android:label="@string/title_activity_helpseekermap" />
+62-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:45:13-65
+63        <activity android:name="com.example.covid19helper.MainActivity" >
+63-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:46:9-52:20
+63-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:46:19-47
+64            <intent-filter>
+64-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:47:13-51:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:48:17-69
+65-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:48:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:50:17-77
+67-->C:\Users\DELL\AppData\Local\Temp\Covid19helper\app\src\main\AndroidManifest.xml:50:27-74
+68            </intent-filter>
+69        </activity> <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+75            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+75-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+79            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+79-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+81
+82        <service
+82-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:34:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:35:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-database:19.2.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+90                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+90-->[com.google.firebase:firebase-database:19.2.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-database:19.2.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c35340ecdc147c31bde9b8bd18c18794\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+93                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+93-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c35340ecdc147c31bde9b8bd18c18794\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c35340ecdc147c31bde9b8bd18c18794\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+95            <meta-data
+95-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+96-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+99-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+101        </service>
+102
+103        <receiver
+103-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+104            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+104-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+105            android:exported="true"
+105-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+106            android:permission="com.google.android.c2dm.permission.SEND" >
+106-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+107            <intent-filter>
+107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fdf35e2646cc7d6e6f0ccd9276867112\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+109            </intent-filter>
+110        </receiver>
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+119            android:authorities="com.example.covid19helper.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+122
+123        <receiver
+123-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+124-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+126            android:exported="false" >
+126-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+127        </receiver>
+128        <receiver
+128-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+129            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+129-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+131            android:exported="true"
+131-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+132            android:permission="android.permission.INSTALL_PACKAGES" >
+132-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+133            <intent-filter>
+133-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+134                <action android:name="com.android.vending.INSTALL_REFERRER" />
+134-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+134-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+135            </intent-filter>
+136        </receiver>
+137
+138        <service
+138-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+139            android:name="com.google.android.gms.measurement.AppMeasurementService"
+139-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+141            android:exported="false" />
+141-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+142        <service
+142-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+143            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+143-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" />
+146-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+151    </application>
+152
+153</manifest>

@@ -394,6 +394,7 @@ public class helpseekcity extends AppCompatActivity implements AdapterView.OnIte
 
             myRef2.setValue(dataMap);
             startActivity(intent);
+            finish();
         }
         if(type.equals("helper"))
         {
@@ -407,6 +408,7 @@ dataMap.put("Registerationstatus","Not registered");
             DatabaseReference myRef2 = database2.getReference().child("users").child(uid).child("data").push();
             myRef2.setValue(dataMap);
             startActivity(intent);
+            finish();
         }
         }
 

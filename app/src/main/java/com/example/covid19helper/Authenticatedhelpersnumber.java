@@ -34,6 +34,7 @@ public class Authenticatedhelpersnumber extends AppCompatActivity {
         final String city=getIntent().getStringExtra("city");
         final String state=getIntent().getStringExtra("state");
         final String uid=getIntent().getStringExtra("uid");
+        ahntextv.setText("Helpers in "+city+"  "  +city+"  में मददगार");
         FirebaseDatabase.getInstance().getReference().child("everytimehelperdetail").child(state).child(city).addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {

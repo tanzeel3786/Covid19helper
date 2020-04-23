@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 Intent intent = new Intent(MainActivity.this, registerpage.class);
                 startActivity(intent);
+                finish();
             }
         }
         else
